@@ -1,0 +1,74 @@
+body {
+    background-image: url(./decor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    margin: 20px 15px;
+    border-radius: 25px;
+    border: 1px solid orangered;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+span {
+    position: absolute;
+    background-color: orangered;
+    height: 100%;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 25px;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+
+.header {
+    margin-left: 27px;
+    background-color: goldenrod;
+    display: flex;
+    height: 60px;
+
+
+}
+
+.home {
+    padding-left: 540px;
+    text-decoration: none;
+    padding-top: 28px;
+}
+
+.bed {
+    padding-left: 50px;
+    text-decoration: none;
+    padding-top: 28px;
+}
+
+p {
+    margin-top: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.changes {
+    text-align: center;
+    padding-top: 1vh;
+}
